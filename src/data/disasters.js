@@ -1,0 +1,58 @@
+export const disasters = {
+  EARTHQUAKE: {
+    icon: "🏚️", color: "#e67e22",
+    contacts: ["Ambulance", "Police", "Disaster Helpline"],
+    safety_actions: [
+      "DROP to your hands and knees immediately",
+      "Take COVER under a sturdy desk or table",
+      "HOLD ON until shaking stops — do not run outside",
+      "Stay away from windows and exterior walls",
+      "After shaking stops, check for injuries before moving",
+      "Evacuate using stairs only — never use elevators",
+      "Move to open ground away from buildings",
+    ],
+    evacuation: "Move to the designated assembly area on open ground away from structures.",
+  },
+  FIRE: {
+    icon: "🔥", color: "#e74c3c",
+    contacts: ["Fire Department", "Ambulance", "Campus Security"],
+    safety_actions: [
+      "Activate the nearest fire alarm immediately",
+      "Call emergency services (101) right away",
+      "Crawl low under smoke to avoid toxic fumes",
+      "Feel doors before opening — if hot, use alternate exit",
+      "Evacuate via stairwells, never use elevators",
+      "Close doors behind you to slow fire spread",
+      "Go to the designated assembly point and stay there",
+    ],
+    evacuation: "Use the nearest marked fire exit. Proceed to the campus assembly point.",
+  },
+  FLOOD: {
+    icon: "🌊", color: "#2980b9",
+    contacts: ["Disaster Helpline", "Police", "Campus Security"],
+    safety_actions: [
+      "Move immediately to higher floors or elevated ground",
+      "Do not attempt to walk through moving water",
+      "Avoid storm drains, culverts and drainage channels",
+      "Turn off electrical appliances at the mains if safe",
+      "Do not drive through flooded roads or underpasses",
+      "Keep emergency kit and documents elevated and ready",
+      "Monitor official alerts and await evacuation orders",
+    ],
+    evacuation: "Follow faculty guidance to upper floors or high-ground shelter zones.",
+  },
+  CYCLONE: {
+    icon: "🌀", color: "#8e44ad",
+    contacts: ["Disaster Helpline", "Police", "Ambulance"],
+    safety_actions: [
+      "Move to a designated cyclone shelter immediately",
+      "Stay away from windows, doors and exterior walls",
+      "Do not go outside during the eye — it will resume",
+      "Disconnect all electrical appliances",
+      "Keep emergency supplies: water, torch, first aid kit",
+      "Stay tuned to official weather and emergency broadcasts",
+      "Wait for all-clear signal before leaving shelter",
+    ],
+    evacuation: "Proceed to the reinforced cyclone shelter. Await the official all-clear.",
+  },
+};

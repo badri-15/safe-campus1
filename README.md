@@ -1,16 +1,30 @@
-# React + Vite
+# SafeCampus
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive emergency preparedness system built to help students and campus staff know exactly what to do when it matters most.
 
-Currently, two official plugins are available:
+Built to explore how connected systems can respond reliably during emergencies — the same principle behind modern access control and security hardware.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Live demo:** https://safe-campus1-iota.vercel.app
 
-## React Compiler
+## Features
+- Disaster-specific response guidance (earthquake, fire, and other emergency types) with step-by-step safety actions
+- Interactive preparedness checklist with a live readiness score
+- Emergency contacts panel, prioritized by relevance to the selected disaster type
+- Real-time status summary (Prepared / Needs Improvement) based on checklist completion
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
+- React 19
+- Vite
+- Deployed on Vercel
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/badri-15/safe-campus1.git
+cd safe-campus1
+npm install
+npm run dev
+```
+
+## About
+Built as a personal project during a hackathon, focused on fast, dependable emergency response for campus environments — reliability under pressure, not just feature count.

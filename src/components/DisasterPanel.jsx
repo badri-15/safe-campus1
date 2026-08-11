@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { disasters } from "../data/disasters";
 
 export default function DisasterPanel({ selected, onSelect }) {

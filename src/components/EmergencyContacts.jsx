@@ -1,6 +1,6 @@
 import { emergencyContacts } from "../data/contacts";
 import { disasters } from "../data/disasters";
-
+import { useState } from "react";
 export default function EmergencyContacts({ selected }) {
   const relevantContacts = disasters[selected]?.contacts ?? [];
 

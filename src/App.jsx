@@ -45,7 +45,7 @@ export default function App() {
         <DisasterPanel selected={selectedDisaster} onSelect={setSelectedDisaster} />
         <div className="two-col">
           <Checklist checked={checked} onToggle={toggleCheck} />
-          <EmergencyContacts />
+          <EmergencyContacts selected={selectedDisaster} />
         </div>
         <SchemaViewer schema={schema} />
       </main>
